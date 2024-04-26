@@ -7,7 +7,7 @@ If you find this repository useful or our work is related to your research, plea
 @article{
   llm-extrapolation,
   title={Weak-to-Strong Extrapolation Expedites Alignment},
-  author={Chujie Zheng and ZiqiWang and Heng Ji and Minlie Huang and Nanyun Peng},
+  author={Chujie Zheng and Ziqi Wang and Heng Ji and Minlie Huang and Nanyun Peng},
   journal={arXiv preprint arXiv:2404.16792},
   year={2024}
 }
