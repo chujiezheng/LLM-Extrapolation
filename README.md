@@ -1,6 +1,6 @@
 # LLM-Extrapolation
 
-Official repository for paper "[Weak-to-Strong Extrapolation Expedites Alignment](https://arxiv.org/abs/2404.16792)"
+Official repository for paper "[Weak-to-Strong Extrapolation Expedites Alignment](https://arxiv.org/abs/2404.16792)" [[tweet]](https://twitter.com/ChujieZheng/status/1783911895088632175)
 
 If you find this repository useful or our work is related to your research, please kindly cite it:
 ```
