@@ -1,0 +1,25 @@
+{
+  "results": {
+    "truthfulqa_mc": {
+      "mc1": 0.39412484700122397,
+      "mc1_stderr": 0.017106588140700322,
+      "mc2": 0.5593044110965991,
+      "mc2_stderr": 0.015622362279782129
+    }
+  },
+  "versions": {
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=allenai/tulu-2-dpo-7b,use_accelerate=True",
+    "num_fewshot": 0,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

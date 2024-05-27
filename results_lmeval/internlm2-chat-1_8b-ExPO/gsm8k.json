@@ -1,0 +1,23 @@
+{
+  "results": {
+    "gsm8k": {
+      "acc": 0.312357846853677,
+      "acc_stderr": 0.012765850404191419
+    }
+  },
+  "versions": {
+    "gsm8k": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=chujiezheng/internlm2-chat-1_8b-ExPO,use_accelerate=True",
+    "num_fewshot": 5,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

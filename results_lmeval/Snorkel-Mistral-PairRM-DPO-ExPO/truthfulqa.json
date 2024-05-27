@@ -1,0 +1,25 @@
+{
+  "results": {
+    "truthfulqa_mc": {
+      "mc1": 0.5361077111383109,
+      "mc1_stderr": 0.017457800422268622,
+      "mc2": 0.6982856898350243,
+      "mc2_stderr": 0.01517417927372021
+    }
+  },
+  "versions": {
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=chujiezheng/Snorkel-Mistral-PairRM-DPO-ExPO,use_accelerate=True",
+    "num_fewshot": 0,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

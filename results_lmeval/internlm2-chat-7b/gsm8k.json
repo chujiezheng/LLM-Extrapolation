@@ -1,0 +1,23 @@
+{
+  "results": {
+    "gsm8k": {
+      "acc": 0.2714177407126611,
+      "acc_stderr": 0.012249002026150582
+    }
+  },
+  "versions": {
+    "gsm8k": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=internlm/internlm2-chat-7b,use_accelerate=True",
+    "num_fewshot": 5,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

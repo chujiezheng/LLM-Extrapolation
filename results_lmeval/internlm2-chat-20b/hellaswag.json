@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hellaswag": {
+      "acc": 0.6165106552479586,
+      "acc_stderr": 0.004852420856631477,
+      "acc_norm": 0.8253335988846843,
+      "acc_norm_stderr": 0.003789055487003176
+    }
+  },
+  "versions": {
+    "hellaswag": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=internlm/internlm2-chat-20b,use_accelerate=True",
+    "num_fewshot": 10,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

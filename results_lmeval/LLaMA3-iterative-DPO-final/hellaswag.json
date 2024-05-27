@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hellaswag": {
+      "acc": 0.6292571200955985,
+      "acc_stderr": 0.004820166002253078,
+      "acc_norm": 0.8375821549492133,
+      "acc_norm_stderr": 0.003680798950531914
+    }
+  },
+  "versions": {
+    "hellaswag": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=RLHFlow/LLaMA3-iterative-DPO-final,use_accelerate=True",
+    "num_fewshot": 10,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hellaswag": {
+      "acc": 0.5754829715196176,
+      "acc_stderr": 0.004932593348813626,
+      "acc_norm": 0.7870942043417646,
+      "acc_norm_stderr": 0.004085249783499764
+    }
+  },
+  "versions": {
+    "hellaswag": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=chujiezheng/internlm2-chat-7b-ExPO,use_accelerate=True",
+    "num_fewshot": 10,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

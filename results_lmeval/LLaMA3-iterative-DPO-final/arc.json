@@ -1,0 +1,25 @@
+{
+  "results": {
+    "arc_challenge": {
+      "acc": 0.6331058020477816,
+      "acc_stderr": 0.014084133118104298,
+      "acc_norm": 0.6476109215017065,
+      "acc_norm_stderr": 0.013960142600598677
+    }
+  },
+  "versions": {
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=RLHFlow/LLaMA3-iterative-DPO-final,use_accelerate=True",
+    "num_fewshot": 25,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

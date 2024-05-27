@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hellaswag": {
+      "acc": 0.6312487552280422,
+      "acc_stderr": 0.004814803098436811,
+      "acc_norm": 0.8414658434574785,
+      "acc_norm_stderr": 0.0036449467300446047
+    }
+  },
+  "versions": {
+    "hellaswag": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/local1/chujiezheng/Extrapolation/checkpoints/LLaMA3-iterative-DPO-final-ExPO,use_accelerate=True",
+    "num_fewshot": 10,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

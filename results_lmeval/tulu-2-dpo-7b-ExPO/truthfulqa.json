@@ -1,0 +1,25 @@
+{
+  "results": {
+    "truthfulqa_mc": {
+      "mc1": 0.43818849449204406,
+      "mc1_stderr": 0.01736923616440444,
+      "mc2": 0.596166073563216,
+      "mc2_stderr": 0.015682243521195793
+    }
+  },
+  "versions": {
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=chujiezheng/tulu-2-dpo-7b-ExPO,use_accelerate=True",
+    "num_fewshot": 0,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

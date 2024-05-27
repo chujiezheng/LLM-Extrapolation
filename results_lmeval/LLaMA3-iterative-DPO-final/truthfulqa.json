@@ -1,0 +1,25 @@
+{
+  "results": {
+    "truthfulqa_mc": {
+      "mc1": 0.4589963280293758,
+      "mc1_stderr": 0.017444544447661192,
+      "mc2": 0.621484174391634,
+      "mc2_stderr": 0.01517629818827783
+    }
+  },
+  "versions": {
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=RLHFlow/LLaMA3-iterative-DPO-final,use_accelerate=True",
+    "num_fewshot": 0,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

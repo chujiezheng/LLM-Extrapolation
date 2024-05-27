@@ -1,0 +1,25 @@
+{
+  "results": {
+    "arc_challenge": {
+      "acc": 0.5409556313993175,
+      "acc_stderr": 0.014562291073601224,
+      "acc_norm": 0.5793515358361775,
+      "acc_norm_stderr": 0.014426211252508403
+    }
+  },
+  "versions": {
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=internlm/internlm2-chat-7b,use_accelerate=True",
+    "num_fewshot": 25,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

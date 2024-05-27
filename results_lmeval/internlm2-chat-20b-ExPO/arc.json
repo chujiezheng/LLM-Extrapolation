@@ -1,0 +1,25 @@
+{
+  "results": {
+    "arc_challenge": {
+      "acc": 0.5597269624573379,
+      "acc_stderr": 0.014506769524804237,
+      "acc_norm": 0.6271331058020477,
+      "acc_norm_stderr": 0.014131176760131169
+    }
+  },
+  "versions": {
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=chujiezheng/internlm2-chat-20b-ExPO,use_accelerate=True",
+    "num_fewshot": 25,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

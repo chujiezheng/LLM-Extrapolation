@@ -1,0 +1,25 @@
+{
+  "results": {
+    "truthfulqa_mc": {
+      "mc1": 0.4700122399020808,
+      "mc1_stderr": 0.01747199209169754,
+      "mc2": 0.6395686593601527,
+      "mc2_stderr": 0.01520832294490384
+    }
+  },
+  "versions": {
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/local1/chujiezheng/Extrapolation/checkpoints/LLaMA3-iterative-DPO-final-ExPO,use_accelerate=True",
+    "num_fewshot": 0,
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
