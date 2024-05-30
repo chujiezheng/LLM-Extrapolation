@@ -43,7 +43,7 @@ ExPO is also scalable across models of various sizes and capabilities, as evalua
 
 <img src="README.assets/image-20240526235209272.png" alt="image-20240526235209272" style="zoom:33%;" />
 
-It also has little impact on the base model's capability, as evaluated on Open LLM Leaderboard
+It has little impact on the base model's capability, as evaluated on Open LLM Leaderboard
 
 <img src="README.assets/image-20240526235243446.png" alt="image-20240526235243446" style="zoom:33%;" />
 
