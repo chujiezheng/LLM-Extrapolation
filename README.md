@@ -16,8 +16,8 @@ If you find this repository useful or our work is related to your research, plea
 ## News
 
 * **[05/2024]** We have made a revision to the [ExPO paper](https://arxiv.org/abs/2404.16792), adding the basic theoretical explanation and more comprehensive evaluation (more benchmarks and models). Overall, ExPO is **<font color="red">extremely simple, efficient, and scalable</font>**. Try it to boost your aligned LLMs!
-* **[05/2024]** We are constantly uploading new **ExPO**-enhanced LLMs to [HuggingFace](https://huggingface.co/collections/chujiezheng/weak-to-strong-extrapolation-expedites-alignment-662b69fbe7850e722e10ff70) (e.g., LLaMA-3 models, from 8B to 70B). You can give them a try!
-* **[05/2024]** Our uploaded **ExPO**-enhanced LLMs have received **<font color="red">10K+ downloads in 2 weeks</font>** on [HuggingFace](https://huggingface.co/collections/chujiezheng/weak-to-strong-extrapolation-expedites-alignment-662b69fbe7850e722e10ff70)!
+* **[05/2024]** We are constantly uploading new **ExPO**-enhanced LLMs to [🤗 HuggingFace](https://huggingface.co/collections/chujiezheng/weak-to-strong-extrapolation-expedites-alignment-662b69fbe7850e722e10ff70) (e.g., LLaMA-3 models, from 8B to 70B). You can give them a try!
+* **[05/2024]** Our uploaded **ExPO**-enhanced LLMs have received **<font color="red">10K+ downloads in 2 weeks</font>** on [🤗 HuggingFace](https://huggingface.co/collections/chujiezheng/weak-to-strong-extrapolation-expedites-alignment-662b69fbe7850e722e10ff70)!
 
 ## Introduction
 
@@ -49,11 +49,11 @@ It has little impact on the base model's capability, as evaluated on Open LLM Le
 
 ## Models
 
-We have uploaded the trained checkpoints and extrapolated models on HuggingFace.
+We have uploaded the trained checkpoints and extrapolated models on 🤗 HuggingFace.
 
-For the extrapolated models applied to open-source models, see [this HuggingFace collection](https://huggingface.co/collections/chujiezheng/weak-to-strong-extrapolation-expedites-alignment-662b69fbe7850e722e10ff70).
+For the extrapolated models applied to open-source models, see [this 🤗 HuggingFace collection](https://huggingface.co/collections/chujiezheng/weak-to-strong-extrapolation-expedites-alignment-662b69fbe7850e722e10ff70).
 
-For the `zephyr` checkpoints trained from `zephyr-7b-sft-full` in our controlled experiments, see [this HuggingFace collection](https://huggingface.co/collections/chujiezheng/model-checkpoints-in-the-expo-paper-662b00fde58d277c81fb5bfb).
+For the `zephyr` checkpoints trained from `zephyr-7b-sft-full` in our controlled experiments, see [this 🤗 HuggingFace collection](https://huggingface.co/collections/chujiezheng/model-checkpoints-in-the-expo-paper-662b00fde58d277c81fb5bfb).
 
 ## Implementation of ExPO
 
