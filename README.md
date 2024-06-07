@@ -23,29 +23,43 @@ If you find this repository useful or our work is related to your research, plea
 
 This work presents **ExPO**, an extremely simple method to boost LLMs' alignment with human preference via **weak-to-strong model extrapolation**
 
-<img src="README.assets/image-20240526234617945.png" alt="image-20240526234617945" style="zoom:33%;" />
+<div align="center">
+<img src="README.assets/image-20240526234617945.png" alt="image-20240526234617945" width="100%" />
+</div>
 
 ExPO is inspired by *model interpolation*. We find that interpolating between the weights of a DPO/RLHF model and its initial SFT checkpoint usually results in in-between performance. Then, ***what if we consider a DPO/RLHF model as the interpolated result from the initial SFT model and a hypothetically better-aligned model?***
 
-<img src="README.assets/image-20240526234827340.png" alt="image-20240526234827340" style="zoom:33%;" />
+<div align="center">
+<img src="README.assets/image-20240526234827340.png" alt="image-20240526234827340" width="80%" />
+</div>
 
 ExPO is extremely simple and efficient, which can be implemented in a few lines of code (as in `extrapolate.py`)
 
-<img src="README.assets/image-20240526235029959.png" alt="image-20240526235029959" style="zoom:33%;" />
+<div align="center">
+<img src="README.assets/image-20240526235029959.png" alt="image-20240526235029959" width="70%" />
+</div>
 
 Theoretically, ExPO takes first-order approximation to implicitly optimize the alignment objective
 
-<img src="README.assets/image-20240526235104099.png" alt="image-20240526235104099" style="zoom:33%;" />
+<div align="center">
+<img src="README.assets/image-20240526235104099.png" alt="image-20240526235104099" width="50%" />
+</div>
 
-<img src="README.assets/image-20240526235116013.png" alt="image-20240526235116013" style="zoom:33%;" />
+<div align="center">
+<img src="README.assets/image-20240526235116013.png" alt="image-20240526235116013" width="60%" />
+</div>
 
 ExPO is also scalable across models of various sizes and capabilities, as evaluated on AlpacaEval 2.0 and MT-Bench
 
-<img src="README.assets/image-20240526235209272.png" alt="image-20240526235209272" style="zoom:33%;" />
+<div align="center">
+<img src="README.assets/image-20240526235209272.png" alt="image-20240526235209272" width="100%" />
+</div>
 
 It has little impact on the base model's capability, as evaluated on Open LLM Leaderboard
 
-<img src="README.assets/image-20240526235243446.png" alt="image-20240526235243446" style="zoom:33%;" />
+<div align="center">
+<img src="README.assets/image-20240526235243446.png" alt="image-20240526235243446" width="100%" />
+</div>
 
 ## Models
 
